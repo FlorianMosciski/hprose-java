@@ -1,4 +1,4 @@
-#!/bin/sh -x
+ !/bin/sh -x
 
 init(){
     rm -rf build
@@ -32,4 +32,4 @@ for version in {5..8};do
     buildByJdkVersion $version
 done
 
-clean
+clean 
